@@ -4,8 +4,8 @@ Some Western Digital (WD) external hard-drives have a built-in encryption mechan
 
 # Files
 
-* [On_the_(in)security_of_a_Self-Encrypting_Drive_series.pdf](https://github.com/SifoHamlaoui/WD-Decrypte/blob/master/On_the_(in)security_of_a_Self-Encrypting_Drive_series.pdf & [WD_Encryption_API.txt](https://github.com/SifoHamlaoui/WD-Decrypte/blob/master/WD_Encryption_API.txt) -> both contain information about the API and the algorithms used for the encryption process
-* [cookpw.py](https://github.com/SifoHamlaoui/WD-Decrypte/blob/master/cookpw.py) -> a Python script-file which generates the .BIN file (40 bytes) as well as contains the decryption password
+* [On_the_(in)security_of_a_Self-Encrypting_Drive_series.pdf](https://github.com/IbrahimTouman/WD-Decrypte/blob/master/On_the_(in)security_of_a_Self-Encrypting_Drive_series.pdf & [WD_Encryption_API.txt](https://github.com/IbrahimTouman/WD-Decrypte/blob/master/WD_Encryption_API.txt) -> both contain information about the API and the algorithms used for the encryption process
+* [cookpw.py](https://github.com/IbrahimTouman/WD-Decrypte/blob/master/cookpw.py) -> a Python script-file which generates the .BIN file (40 bytes) as well as contains the decryption password
 * [WDdecrypt.sh](https://github.com/IbrahimTouman/WD-Decrypte/blob/master/WDdecrypt.sh) -> a Bash script-file which automates the entire decryption mechanism in a nice and interactive way
 
 # Contributions
