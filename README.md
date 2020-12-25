@@ -1,11 +1,34 @@
-## WD-Decrypte
-The Western Digital Decryption tools
-this repo relates to this Tutorial : https://youtu.be/Qz51UelzByA
+# Project Title
 
-## The youtube notes : 
-* [Notes for WD DECRYPTION]( https://github.com/SifoHamlaoui/Youtube_Notes/blob/master/HOW%20TO%20DECRYPTE%20Western%20Digital%20DRIVE%20ON%20LINUX.md)
-## The Files : 
-* [1002.pdf](https://github.com/SifoHamlaoui/WD-Decrypte/blob/master/1002.pdf) & [WD_Encryption_API.txt](https://github.com/SifoHamlaoui/WD-Decrypte/blob/master/WD_Encryption_API.txt) : shows the API & the Algorithms used for the encryption 
-* [cookpw.py](https://github.com/SifoHamlaoui/WD-Decrypte/blob/master/cookpw.py) : generate's the .BIN file ( 40bytes ) containes the decryption password 
+Some Western Digital (WD) external hard-drives have a built-in encryption mechanism that requires a special software called 'WD Security'. Unfortunately, the 'WD Security' software supports only MS-Windows and Macintosh, so the people who have one or more of those WD hard-drives are always left disappointed whenever they try to access their encrypted WD hard-drives using their favourite GNU/Linux distribution. However, a decryption mechanism which supports most GNU/Linux distributions was luckily discovered for those WD hard-drives, in a way that does not require the infamous 'WD Security' software at all. This repository mainly contains the aforementioned decryption mechanism. For more details, refer to the tutorial presented in this Youtube video: https://youtu.be/Qz51UelzByA
 
- * [drive.sh](https://github.com/SifoHamlaoui/WD-Decrypte/blob/master/drive.sh) : Automation script for the drive encryption
+# Files
+
+* [1002.pdf](https://github.com/SifoHamlaoui/WD-Decrypte/blob/master/1002.pdf) & [WD_Encryption_API.txt](https://github.com/SifoHamlaoui/WD-Decrypte/blob/master/WD_Encryption_API.txt) -> carry information about the API and the algorithms used for the encryption process
+* [cookpw.py](https://github.com/SifoHamlaoui/WD-Decrypte/blob/master/cookpw.py) -> a Python script-file which generates the .BIN file (40 bytes) as well as contains the decryption password
+* [WDdecrypt.sh](https://github.com/IbrahimTouman/WD-Decrypte/blob/master/WDdecrypt.sh) -> a Bash script-file which automates the entire decryption mechanism in a nice and interactive way
+
+# Contributions
+
+First of all, this repository is forked, so all credit goes to the original author [SofianeHamlaoui](https://github.com/SofianeHamlaoui). The reason behind why I ([IbrahimTouman](https://github.com/IbrahimTouman)) forked this repository is that, I wanted to share my useful contribution which adds to work of the original author. I found out that the work of the original author involves so many steps before it is deployed successfully. Therefore, I created a simple Bash script ([WDdecrypt.sh](https://github.com/IbrahimTouman/WD-Decrypte/blob/master/WDdecrypt.sh)) which automates the entire procedure in a nice and interactive way.
+
+# Deployment
+
+Please follow these 8 simple steps:
+
+* Go ahead and install `sg_raw` if you don't have it already. You can download it from: http://sg.danny.cz/sg/sg3_utils.html
+* If you don't have it already, then go ahead and download this Python script-file [cookpw.py](https://github.com/IbrahimTouman/WD-Decrypte/blob/master/cookpw.py)
+* Also, if you don't have it already, then go ahead and download this Bash script-file [WDdecrypt.sh](https://github.com/IbrahimTouman/WD-Decrypte/blob/master/WDdecrypt.sh)
+* Put the `WDdecrypt.sh` Bash script-file together with the `cookpw.py` Python script-file in the same directory, navigate to that directory in a terminal emulator, and then type: `sudo ./WDdecrypt.sh` (you can omit the sudo if you want)
+* In case the `cryptsetup` package does not exist already in your system, the Bash script will prompt you to install it (you must agree with that and allow the installation process to proceed till the end)
+* Give the system location and password of your WD drive when prompted to do so by the Bash script (for security reasons, your password is not stored at all)
+* Enjoy the experience of having your encryption-capable external WD drive fully functional in your favourite GNU/Linux distro
+* Finally, do not forget to always stay safe from covid-19
+
+# Authors
+* **Sofiane Hamlaoui** - *original author* - [SofianeHamlaoui](https://github.com/SofianeHamlaoui)
+* **Ibrahim Touman** - *contributor* - [IbrahimTouman](https://github.com/IbrahimTouman)
+
+# License
+
+This work is licensed under the MIT license - see the [LICENSE](https://github.com/IbrahimTouman/WD-Decrypte/blob/master/LICENSE) file for details
