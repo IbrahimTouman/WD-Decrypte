@@ -10,7 +10,7 @@ Some Western Digital (WD) external hard-drives have a built-in encryption mechan
 
 # Contributions
 
-First of all, this repository is forked, so all credit goes to the original author [SofianeHamlaoui](https://github.com/SofianeHamlaoui). The reason behind why I ([IbrahimTouman](https://github.com/IbrahimTouman)) forked this repository is that, I wanted to share my useful contribution which adds to work of the original author. I found out that the work of the original author involves so many steps before it is deployed successfully. Therefore, I created a simple Bash script ([WDdecrypt.sh](https://github.com/IbrahimTouman/WD-Decrypte/blob/master/WDdecrypt.sh)) which automates the entire procedure in a nice and interactive way.
+First of all, this repository is forked, so all credit goes to the original author [SofianeHamlaoui](https://github.com/SofianeHamlaoui). The reason behind why I ([IbrahimTouman](https://github.com/IbrahimTouman)) forked this repository is that, I wanted to share my useful contribution which adds to the work of the original author. I found out that the work of the original author involves carrying out so many steps before reaching a successful result. Therefore, I created a simple Bash script ([WDdecrypt.sh](https://github.com/IbrahimTouman/WD-Decrypte/blob/master/WDdecrypt.sh)) which automates the entire procedure in a nice and interactive way.
 
 # Deployment
 
