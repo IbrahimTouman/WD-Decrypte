@@ -20,9 +20,9 @@ Please follow these 8 simple steps:
 * If you don't have it already, then go ahead and download this Python script-file [cookpw.py](https://github.com/IbrahimTouman/WD-Decrypte/blob/master/cookpw.py)
 * Also, if you don't have it already, then go ahead and download this Bash script-file [WDdecrypt.sh](https://github.com/IbrahimTouman/WD-Decrypte/blob/master/WDdecrypt.sh)
 * Put the `WDdecrypt.sh` Bash script-file together with the `cookpw.py` Python script-file in the same directory, navigate to that directory in a terminal emulator, and then type: `sudo ./WDdecrypt.sh` (you can omit the "sudo" if you want)
-* In case the `cryptsetup` package does not exist already in your system, the Bash script will prompt you to install it (you must agree with that and allow the installation process to proceed till the end). Unfortunately, you might face some trouble in this step if you are not running a debian-based distribution, however, the solution is simple, which is to manually install the `cryptsetup` package before you execute the Bash script
-* Give the system location and password of your WD drive when prompted to do so by the Bash script (for security reasons, your password is not stored at all)
-* Enjoy the experience of having your encryption-capable external WD hard-drive fully functional in your favourite GNU/Linux distro
+* In case the `cryptsetup` package does not exist already in your system, the Bash script will prompt you to install it (you must agree with that and allow the installation process to proceed till the end). Unfortunately, you might face some trouble in this step if you are not using a debian-based distribution. However, the solution for this problem is simple, which is to manually install the `cryptsetup` package before you execute the Bash script
+* Give the system location and password of your WD hard-drive when prompted to do so by the Bash script (for security reasons, your password is not stored at all)
+* Enjoy the experience of having your encryption-capable external WD hard-drive fully functional in your favourite GNU/Linux distribution
 * Finally, do not forget to always stay safe from covid-19
 
 # Authors
